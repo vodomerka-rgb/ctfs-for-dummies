@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test Walkthrough"
-date: 05-28-2026
+date: 2026-05-28
 categories: cybersecurity picoctf forensics
 ---
 
