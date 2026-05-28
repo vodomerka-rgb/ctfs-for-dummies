@@ -1,0 +1,18 @@
+title: "Walkthroughs"
+description: "Cybersecurity, mathematics, and technical writeups"
+theme: jekyll-theme-hacker
+
+url: "https://vodomerka-rgb.github.io"
+baseurl: ""
+
+author:
+  name: "Watermeasurerr"
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:title/
+
+show_excerpts: true
