@@ -3,7 +3,7 @@ description: "Cybersecurity, mathematics, and technical writeups"
 theme: minima
 
 url: "https://vodomerka-rgb.github.io"
-baseurl: ""
+baseurl: "/walkthroughs"
 
 author:
   name: "Watermeasurerr"
