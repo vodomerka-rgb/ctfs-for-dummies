@@ -15,7 +15,7 @@ I hope this site can help you because I will document some of my projects, notes
 - writeup 1
 - test 2
 - abowehdfojcdp
-- [test link](/2026-05-28-test-walkthrough.html)
+- [test link](/2026/05/28/test-walkthrough.html)
 
 ---
 
