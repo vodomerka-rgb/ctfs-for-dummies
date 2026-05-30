@@ -27,7 +27,7 @@ I'm going to use this site to help me with CTFs, documenting some of my tips, no
 
 # [Cryptography](https://vodomerka-rgb.github.io/walkthroughs/cryptography/)
 
-# [Math](https://vodomerka-rgb.github.io/walkthroughs/cryptography/)
+# [Scripts/Python Stuff](https://vodomerka-rgb.github.io/walkthroughs/code/)
 
 ---
 
