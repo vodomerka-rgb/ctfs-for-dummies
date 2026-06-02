@@ -6,6 +6,8 @@ url: "https://vodomerka-rgb.github.io"
 baseurl: "/walkthroughs"
 
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 plugins:
   - jekyll-feed

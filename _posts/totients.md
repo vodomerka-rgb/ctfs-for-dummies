@@ -1,0 +1,74 @@
+---
+layout: default
+title: Totients
+---
+
+## What is a Totient? And How to Find One
+
+Totients are a fundamental concept in modern encryption, but we need to review a couple of quick definitions before diving into them. 
+
+A number is prime when it has no other factors than 1 and itself. 
+ - **5** only has factors of 1 and 5 (Prime)
+ -  **6** has factors of 1, 2, 3, and 6 (Not prime)
+
+Two numbers are **coprime** when they share no common factors other than 1.
+  - 5 and 6 do not share any factors other than 1. They are coprime.
+  - 5 and 10 share a common factor of 5. They are **not coprime**.
+  - 9 and 12 share a common factor of 3. They are **not coprime**.
+
+Now we have enough context:
+
+```A **totient** is simply the total count of whole numbers less than a certain number that are also coprime to it.```
+
+For example, our certain number will be **12**. The factors of 12 are 1, 2, 3, 4, 6, 12.
+
+Now, let’s take all whole numbers less than 12 and find their factors. 
+- **The factors of 1 are just 1**
+- The factors of 2 are 1, 2
+- The factors of 3 are 1, 3
+- The factors of 4 are 1, 2, 4
+- **The factors of 5 are 1, 5**
+- The factors of 6 are 1, 2, 3, 6
+- **The factors of 7 are 1, 7**
+- The factors of 8 are 1, 2, 4, 8
+- The factors of 9 are 1, 3, 9 
+- The factors of 10 are 1, 2, 5, 10
+- **The factors of 11 are 1, 11**
+
+For each number less than 12,  we need to take a look at any of its factors, and see if they match any of 12’s factors, checking if they are coprime. Those without intersections are bolded.
+- ex. 5 only has factors 1, 5. 
+  12 has factors 1, 2, 3, 4, 6, 12. 
+  They do not have any common factors other than 1. They are coprime. This counts as a ‘success’ when counting for the totient. 
+
+The totient is often expressed with the Greek letter phi, $\phi$. To continue the example from above we could write our results as $\phi(12) = 4$. 
+
+---
+
+## Euler’s Formula
+
+In 1763, **Leonhard Euler** created a formula for finding the totient of a number: 
+
+$$\phi(n) = n \prod_{p \mid n} \left(1 - \frac{1}{p}\right)$$ 
+
+Where $p$ represents the distinct prime numbers dividing $n$.
+
+I was super confused as to what this actually meant at first, so let’s break this down. 
+
+Basically, the subscript with p | n means that the function only pays attention to prime factors that go into n perfectly. Taking those numbers, we have an expression for filtering away all numbers less than n that would subsequently share that factor of p with n. That part cuts out all numbers that are not coprime with n because of factor p. And all of that gets multiplied together with each p found, using the Big Pi notation at the front. 
+
+For example, let’s find the totient of 10. 
+The only primes factors of 10 are 2 and 5. 
+So, that big scary formula really just simplifies to $\phi(10) =10(1 - \frac{1}{2})(1 - \frac{1}{5})$ 
+And that all simplifies to 4!
+So then $\phi(10) = 4$
+
+If you want to read more about the formula, I suggest navigating to its [Wikipedia page](https://en.wikipedia.org/wiki/Euler%27s_totient_function).
+
+---
+
+## Special:
+### Prime numbers:
+The totient of prime numbers is always just 1 less than the number. Because prime numbers have no factors other than 1 and themselves, they will not have any factors in common with any numbers less than them.
+
+### Semiprime numbers:
+Semiprime numbers are those whose only two factors (other than 1 and themselves, of course) are prime. These are numbers like 21 (3 x 7) or 39 (3 x 13). The formula for finding the totient of semiprimes is $\phi(n) = (p-1)(q-1)$, where p and q are two distinct factors of a number n. This is used in encryption algorithms like RSA. Read more RSA on my page about it!
