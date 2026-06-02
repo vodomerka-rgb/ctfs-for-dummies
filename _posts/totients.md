@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Totients
+date: 2026-06-01
+permalink: /posts/totients/
 ---
 
 ## What is a Totient? And How to Find One
