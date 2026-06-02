@@ -3,4 +3,4 @@ layout: default
 title: Cryptography
 ---
 
-- [Totients](https://vodomerka-rgb.github.io/walkthroughs/posts/totients)
+- [Totients](https://vodomerka-rgb.github.io/ctfs-for-dummies/posts/totients)
