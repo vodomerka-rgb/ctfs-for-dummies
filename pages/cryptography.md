@@ -3,4 +3,4 @@ layout: default
 title: Cryptography
 ---
 
-Nothing here yet. Test page. Come back later!
+- [Totients](https://vodomerka-rgb.github.io/walkthroughs/posts/totients)
