@@ -23,12 +23,12 @@ I'm going to use this site to help me with CTFs, documenting some of my tips, no
      MM
 ```
 
-# [Walkthroughs](https://vodomerka-rgb.github.io/walkthroughs/pages/ctf-walkthroughs/)
+# [Walkthroughs](https://vodomerka-rgb.github.io/ctfs-for-dummies/pages/ctf-walkthroughs/)
 
-# [Cryptography](https://vodomerka-rgb.github.io/walkthroughs/pages/cryptography/)
+# [Cryptography](https://vodomerka-rgb.github.io/ctfs-for-dummies/pages/cryptography/)
 
-# [Scripts/Python Stuff](https://vodomerka-rgb.github.io/walkthroughs/pages/code/)
+# [Scripts/Python Stuff](https://vodomerka-rgb.github.io/ctfs-for-dummies/pages/code/)
 
 ---
 
-[About Me](https://vodomerka-rgb.github.io/walkthroughs/about/)
+[About Me](https://vodomerka-rgb.github.io/ctfs-for-dummies/about/)
