@@ -3,7 +3,7 @@ description: "Cybersecurity, mathematics, and technical writeups"
 theme: jekyll-theme-hacker
 
 url: "https://vodomerka-rgb.github.io"
-baseurl: "/walkthroughs"
+baseurl: "/ctfs-for-dummies"
 
 markdown: kramdown
 kramdown:
